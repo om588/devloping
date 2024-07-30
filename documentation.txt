@@ -1,0 +1,37 @@
+ CODE:
+ <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect =new Typed(".multiText",{
+            strings : ["coder","Developer"],
+            loop:true,
+            typeSpeed :100,
+            backSpeed :80,
+            backDelay :1500
+        })
+    </script>
+DESCRIPTION:
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>:
+
+This line includes the Typed.js library into your HTML document. It is hosted on the Unpkg CDN (Content Delivery Network), and the version specified is 2.0.132.
+<script>:
+
+This is the opening tag for a JavaScript script block.
+var typingEffect = new Typed(".multiText", { ... });:
+
+Declares a variable named typingEffect and assigns it the result of creating a new instance of the Typed class. This instance is associated with the HTML element having the class "multiText."
+strings: ["coder", "Developer"],:
+
+An array of strings that will be used for the typing effect. The words "coder" and "Developer" are the strings that will be displayed in the specified HTML element.
+loop: true,:
+
+Sets the loop property to true, allowing the typing effect to loop indefinitely.
+typeSpeed: 100,:
+
+Specifies the typing speed in milliseconds per character. In this case, characters will be typed with a speed of 100 milliseconds.
+backSpeed: 80,:
+
+Specifies the backspacing speed in milliseconds per character. Characters will be erased at a speed of 80 milliseconds.
+backDelay: 1500:
+
+Sets a delay in milliseconds after the typing is complete before starting the backspacing. In this case, there is a delay of 1500 milliseconds (1.5 seconds) before the text starts to backspace.
+The Typed.js library is a popular JavaScript library for creating typing animations on web pages. This code initializes a typing effect on an HTML element with the class "multiText" using the specified settings.

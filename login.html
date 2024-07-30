@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>hello html</title>
+<style>	
+	div{
+		margin:auto;
+		width:50%;
+		border : 2px solid black;
+		padding : 110px
+		background-color:yellow;	}
+</style>
+	</head>
+	<body>
+		<h1>This is heading one.</h1>
+<div>
+		<form name="myForm" >
+			First Name:
+			<input type="text" name="first name" id="first-name">
+</br></br>
+			Last Name:
+			<input type="text" name="last name" id="last-name">
+</br></br>
+
+			Password:
+			<input type="password" name="pass" id="password-id">
+</br></br>
+			<input type="submit" value="Login" id="login-form-submit" onClick="sub()">
+		</form>
+</div>
+<script>
+
+
+//	function alerts(){
+// alert("login sucessfull");
+//  }
+
+function sub(){
+
+const fName = document.getElementById("first-name").value;
+cont lName = document.getElementById("last-name").value;
+cont pass = document.getElementById("password-id").value;
+if(fName == "user" && lName =="user" && pass=="@123#"){
+alert("Login sucessful");
+}
+else{
+	alert("Login failed");
+}
+}
+
+
+</script>
+	</body>
+</html>
